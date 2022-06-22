@@ -15,7 +15,7 @@ public:
         int carry = 0;
         ListNode *l3 = new ListNode(0);
         ListNode *p = l3;
-        while(l1 || l2 || carry){
+        while (l1 || l2 || carry) {
             int x = l1 != nullptr ? l1->val : 0;
             int y = l2 != nullptr ? l2->val : 0;
             int sum = x + y + carry;

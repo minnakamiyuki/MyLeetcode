@@ -22,7 +22,7 @@ public:
     unsigned long mult = 1;
     Fancy() {
         ios_base::sync_with_stdio(false);
-        cin.tie(NULL);
+        cin.tie(nullptr);
     }
     
     void append(int val) {
